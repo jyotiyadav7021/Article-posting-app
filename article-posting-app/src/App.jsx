@@ -8,14 +8,18 @@ import Sidebar from './Components/Sidebar'
 function App() {
 
   return (
-    <>
-      <Sidebar></Sidebar>
-      <Navbar></Navbar>
-      
     
+    <div className='app-container'>
+      <Sidebar></Sidebar>
+      
+      <div className='content'>
+      <Navbar></Navbar>
+   
       <Core></Core>
       <Footer></Footer>
-    </>
+      </div>
+    </div >
+    
   )
 }
 
