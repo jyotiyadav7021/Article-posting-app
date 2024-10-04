@@ -1,19 +1,12 @@
 
 import './App.css'
+import Navbar from './Components/Navbar'
 
 function App() {
 
   return (
     <>
-      <div className='bg-cyan-200'>
-        <nav>
-          <li>Logo</li>
-          <ul>
-            <li>signup</li>
-            <li>login</li>
-          </ul>
-        </nav>
-      </div>
+      <Navbar></Navbar>
     </>
   )
 }
