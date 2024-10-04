@@ -11,7 +11,7 @@ function Navbar () {
                 <li className = "max-[10px] cursor-pointer">Profile</li>
             </ul>
             <div className="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer">
-                <button className="md:hidden">login/signup</button>
+                <button>login/signup</button>
             </div>
 
         </nav>
