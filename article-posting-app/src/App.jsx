@@ -9,8 +9,9 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Footer></Footer>
+    
       <Core></Core>
+      <Footer></Footer>
     </>
   )
 }
