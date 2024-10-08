@@ -3,7 +3,7 @@ function Navbar () {
     return (
         <>
         <nav className="flex justify-between px-10 py-10 items-center bg-indigo-300">
-  <h1 className="text-xl text-gray-800 font-bold">Your Articles</h1>
+  <h1 className="text-xl text-gray-800 font-bold"> Articles</h1>
   <div className="flex items-center">
     <div className="flex items-center">
       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 pt-0.5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
