@@ -4,6 +4,7 @@ import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Core from '././Components/Core'
 import Sidebar from './Components/Sidebar'
+import CreatePost from './Components/CreatePost'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       
       <div className='content'>
       <Navbar></Navbar>
+      <CreatePost></CreatePost>
    
       <Core></Core>
       <Footer></Footer>
