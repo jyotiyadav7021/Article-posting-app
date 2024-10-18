@@ -6,8 +6,10 @@ import Navbar from './Components/Navbar'
 import Sidebar from './Components/Sidebar'
 import CreatePost from './Components/CreatePost'
 import PostList from './Components/PostList'
+import { useState } from 'react'
 
 function App() {
+  const [selectTab, setselectTab] = useState("create Post")
 
   return (
     
@@ -16,9 +18,10 @@ function App() {
       
       <div className='content'>
       <Navbar></Navbar>
-      <CreatePost></CreatePost>
+      {selectTab === "Home" ? (<PostList></PostList>) : (<CreatePost></CreatePost>)}
+      
    
-      <PostList></PostList>
+      
       <Footer></Footer>
       </div>
     </div >
