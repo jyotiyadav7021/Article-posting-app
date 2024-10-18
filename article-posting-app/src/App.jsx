@@ -2,9 +2,10 @@
 import './App.css'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
-import Core from '././Components/Core'
+
 import Sidebar from './Components/Sidebar'
 import CreatePost from './Components/CreatePost'
+import PostList from './Components/PostList'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <Navbar></Navbar>
       <CreatePost></CreatePost>
    
-      <Core></Core>
+      <PostList></PostList>
       <Footer></Footer>
       </div>
     </div >
