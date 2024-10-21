@@ -9,16 +9,16 @@ import PostList from './Components/PostList'
 import { useState } from 'react'
 
 function App() {
-  const [selectTab, setselectTab] = useState("create Post")
+  const [selectdTab, setselectdTab] = useState("create Post")
 
   return (
     
     <div className='app-container'>
-      <Sidebar></Sidebar>
+      <Sidebar selectdTab = {selectdTab}></Sidebar>
       
       <div className='content'>
       <Navbar></Navbar>
-      {selectTab === "Home" ? (<PostList></PostList>) : (<CreatePost></CreatePost>)}
+      {selectdTab === "Home" ? (<PostList></PostList>) : (<CreatePost></CreatePost>)}
       
    
       

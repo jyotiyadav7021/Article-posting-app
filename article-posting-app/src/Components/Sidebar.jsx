@@ -1,4 +1,4 @@
-function Sidebar() {
+function Sidebar({selectTab}) {
     return (
         <>
             <div className="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">

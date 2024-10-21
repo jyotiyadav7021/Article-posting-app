@@ -1,5 +1,5 @@
 
-function Navbar () {
+function Navbar ({selectdTab}) {
     return (
         <>
         <nav className="flex justify-between px-10 py-10 items-center bg-indigo-300">
